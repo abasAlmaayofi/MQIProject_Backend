@@ -23,6 +23,7 @@ async function sendEmail(props) {
   const replacements = {
     name: props?.name,
     email: props?.email,
+    totalPoints: props.totalPoints,
     q1: props?.questions[0],
     q2: props?.questions[1],
     q3: props?.questions[2],
